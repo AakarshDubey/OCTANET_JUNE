@@ -33,8 +33,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    border: white;
+    color: white;
     text-decoration: none;
+    transition: color 1s;
+    
+}
+nav ul li a:hover{
+    color: blueviolet;
 }
 
 .container {
